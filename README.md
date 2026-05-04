@@ -9,7 +9,8 @@ Converts standard textbook pages into accessible, multimodal educational comic s
 2. **RAG** (`neurolens_rag.py`) — Chunks, embeds, and retrieves relevant context using all-MiniLM-L6-v2
 3. **NLP/LLM** (`neurolens_nlp.py`) — Simplifies text into dyslexia-friendly bullets using Gemini 3 Flash
 4. **Visual** (`neurolens_visual.py`) — Generates comic panels using FLUX.1-schnell / Stable Diffusion XL
-![Architecture Diagram](architecture_diagram.jpeg)
+
+![Architecture Diagram](architecture_diagram.png)
 
 ## Setup
 
