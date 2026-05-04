@@ -1,0 +1,7 @@
+# Neuro-Lens — Step 1 (PaddleOCR) Requirements
+# Install with: pip install -r requirements_ocr.txt
+
+paddlepaddle>=2.6.0     # CPU build  (use paddlepaddle-gpu for GTX 1650+)
+paddleocr>=2.7.0        # OCR engine (downloads models on first run ~200MB)
+opencv-python>=4.8.0    # image preprocessing
+numpy>=1.24.0

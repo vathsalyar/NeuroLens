@@ -1,0 +1,11 @@
+# Neuro-Lens — Step 3 (Visual Generation) Requirements
+# Install: pip install -r requirements_visual.txt
+
+huggingface_hub>=0.23.0   # InferenceClient — the official 2025 HF SDK
+Pillow>=10.0.0             # comic panel assembly and image saving
+
+# Get free HF token:
+#   1. huggingface.co → Sign up (free)
+#   2. Settings → Access Tokens → New token → Read → Generate
+#   3. Windows:   set HF_TOKEN=hf_...
+#      Mac/Linux: export HF_TOKEN=hf_...

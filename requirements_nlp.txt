@@ -1,0 +1,12 @@
+# Neuro-Lens — Step 2 (NLP) Requirements
+# Install: pip install -r requirements_nlp.txt
+
+spacy>=3.7.0
+textstat>=0.7.3
+nltk>=3.8.1
+sentence-transformers>=2.7.0
+torch>=2.0.0          # CPU build is fine; no GPU needed for this step
+
+# After install, run these once:
+#   python -m spacy download en_core_web_sm
+#   python -c "import nltk; nltk.download('wordnet'); nltk.download('averaged_perceptron_tagger'); nltk.download('punkt'); nltk.download('brown')"
